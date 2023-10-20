@@ -1,0 +1,46 @@
+.container{
+    width: 1000px;
+    height: 500px;
+    padding: 4px;
+    background-color: blue;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.first{
+    display: flex;
+    flex-direction:column ;
+    background-color: antiquewhite;
+    width: 500px;
+    height: 400px;
+    margin: 4px;
+}
+button{
+    width: 40px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 12px;
+}
+.second{
+    display: flex;
+    flex-direction:rom;
+    background-color: rgb(212, 133, 29);
+    width: 500px;
+    height: 200px;
+    margin: 4px;
+}
+.second button:nth-child(2){
+    flex-grow: 1;
+}
+.first button:nth-child(2){
+    flex-shrink: 1;
+}
+.first button:nth-child(1){
+    flex-grow: 2;
+}
+.first button:nth-child(3){
+    flex-grow: 2;
+}
+.first button:nth-child(4){
+    flex-grow: 2;
+}

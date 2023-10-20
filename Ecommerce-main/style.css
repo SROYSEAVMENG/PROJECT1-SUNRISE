@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+/* .section-m1 {
+  margin: 40px 0;
+} */
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+
+}
+button.white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s;
+
+}
+body {
+  width: 100%;
+}
+
+/* Header Start */
+
+#header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: black;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left:0;
+}
+
+#navbar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+
+
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: #707171;
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #707171;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+footer h3{
+    padding-bottom: 20px;
+}
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer .copyright{
+    width: 100%;
+    text-align: center;
+}
+#page-header{
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+    .search {
+        background-color: black;
+        display: flex;
+        flex: 1;
+        width: 30%;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+        position: absolute;
+        top: calc((100% - 30px - 20px) / 2);
+        left: 20%;
+        border:1px white solid;
+        border-radius: 10px;
+      }
+    input {
+        width: 100%;
+        height: 20px;
+        background-color: black;
+        border:none ;
+      }
+      .b1{
+        width: 100px;
+        height: 30px;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        background-color: paleturquoise;
+      }
+      nav ul li a {
+        color: white;
+        font-size: 17px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+      }
+      nav ul {
+        float: right;
+        margin-right: 20px;
+      }
+      nav ul li {
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+      }
+      nav-2 {
+        display: flex;
+        height: 40px;
+        width: 100%;
+        background: #585254;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+       
+      }
+      nav-2 ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+      }
+      nav-2 ul li {
+        margin: 0 5px;
+      }
+      nav-2 ul li a {
+        color: #f2f2f2;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 900px;
+        border-radius: 20px;
+        padding: 2px 20px;
+        letter-spacing: 1px;
+        transition: all 0.3s ease;
+      }
+      nav-2 ul li a.active,
+      nav-2 ul li a:hover {
+        color: #111;
+        background: #fff;
+      }
+      nav-2 .menu-btn i {
+        color: #fff;
+        font-size: 22px;
+        cursor: pointer;
+        display: none;
+      }
+      .grid-container {
+        padding: 10px;
+      }
+      .item {
+        background-color: #fff;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        border: 1px solid rgba(14, 13, 13, 0.259);
+        border-radius: 10px;
+      }
+      .pic1{
+        background-color: rgba(17, 132, 38, 0);
+        z-index: 30;
+        height: 500px;
+    
+      }
+      .pic{
+        background-color: #fff;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        border: 1px solid rgba(14, 13, 13, 0.259);
+        border-radius: 10px;
+
+      }
+      
+      
+
+      
+
+
+
+
